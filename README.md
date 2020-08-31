@@ -9,6 +9,25 @@
 
 ## Running this thing
 
+### 2020 install guide
+
+Since this is an old repo I found that it worked with node `v8.17.0`. Probably can work with newer versions but I havent tested.
+
+#### For OSX
+
+- Install cairo library `brew install cairo`
+- Install `nvm` and node `v8.17.0` with `$ nvm install 8.17.0` and `nvm use 18.7.0`
+- Run `$ npm install -g shader-school --unsafe-perm`
+- Run `$ shader-school`
+- Run again `$ npm install --unsafe-perm`
+- Finally `$ npm start`
+
+#### For Windows
+
+- WIP
+
+### Original guide
+
 First, you need to [get a browser with WebGL](http://get.webgl.org/), as well
 as a copy of [node.js](http://nodejs.org/) and [git](http://git-scm.com/). Once you have
 all of that set up, you can install the workshop using [npm](http://npmjs.org/), which
@@ -54,14 +73,14 @@ are very helpful. More feedback like this please!
 
 From left to right:
 
-* `#34363B` `vec3(0.2039, 0.2117, 0.2313)` (black)
-* `#A9B0C3` `vec3(0.5372, 0.6901, 0.7647)` (dark grey)
-* `#DEE7FF` `vec3(0.8705, 0.9058, 1.0)` (light grey)
-* `#FFFFFF` `vec3(1.0, 1.0, 1.0)` (white)
-* `#58FF8B` `vec3(0.3451, 1.0, 0.5450)` (green)
-* `#FF6E57` `vec3(1.0, 0.4313, 0.3411)` (red)
-* `#FFE25F` `vec3(1.0, 0.8862, 0.3725)` (yellow)
-* `#61C3FF` `vec3(0.3804, 0.7647, 1.0)` (blue)
+- `#34363B` `vec3(0.2039, 0.2117, 0.2313)` (black)
+- `#A9B0C3` `vec3(0.5372, 0.6901, 0.7647)` (dark grey)
+- `#DEE7FF` `vec3(0.8705, 0.9058, 1.0)` (light grey)
+- `#FFFFFF` `vec3(1.0, 1.0, 1.0)` (white)
+- `#58FF8B` `vec3(0.3451, 1.0, 0.5450)` (green)
+- `#FF6E57` `vec3(1.0, 0.4313, 0.3411)` (red)
+- `#FFE25F` `vec3(1.0, 0.8862, 0.3725)` (yellow)
+- `#61C3FF` `vec3(0.3804, 0.7647, 1.0)` (blue)
 
 ## Screenshots
 
