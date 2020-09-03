@@ -11,18 +11,24 @@
 
 ### 2020 install guide
 
-Since this is an old repo I found that it worked with node `v8.17.0`. Probably can work with newer versions but I havent tested.
+Since this is an old repo I found that it worked fine with node `v8.17.0`. Probably can work with newer versions but I havent tested further.
 
-#### For OSX
+#### OSX
 
-- Install cairo library `brew install cairo`
-- Install `nvm` and node `v8.17.0` with `$ nvm install 8.17.0` and `nvm use 18.7.0`
+- This repo has a dependency with cairo so you need to install it: `brew install cairo`
+- [Install nvm](https://github.com/nvm-sh/nvm#install--update-script)
+  - Using nvm install node `v8.17.0` with `$ nvm install 8.17.0` and `nvm use 18.7.0`
 - Run `$ npm install -g shader-school --unsafe-perm`
 - Run `$ shader-school`
 - Run again `$ npm install --unsafe-perm`
 - Finally `$ npm start`
+- Go to [http://localhost:12492/](http://localhost:12492/)
 
-#### For Windows
+#### Windows
+
+- WIP
+
+#### Linux
 
 - WIP
 
